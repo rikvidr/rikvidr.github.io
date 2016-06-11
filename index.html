@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Stash</title>
+	<script type="text/javascript">
+		function toggle(id){
+			var elem = document.getElementById(id);
+			var to = elem.style.display=="block"?"none":"block";
+			elem.style.display=to;
+		}
+	</script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Stash (Updated 08/28/2014)</h1>
+        <h2></h2>
+
+        <section id="downloads">
+		<a href="Electronic.html" class="btn">Electronic</a>
+          <a href="Horrorcore.html" class="btn">Horrorcore</a>
+		  <a href="Pop.html" class="btn">Indie & Pop</a>
+          <a href="Metal.html" class="btn">Metal</a>
+          <a href="Misc.html" class="btn">Misc.</a>
+		   <a href="Psychopathic.html" class="btn">Psychopathic</a>
+		   <a href="Punk.html" class="btn">Punk</a>
+		   <a href="Rap.html" class="btn">Rap</a>
+		   <a href="Rock.html" class="btn">Rock</a>
+		   <a href="Soundtracks.html" class="btn">OST</a>
+		   <a href="Videos.html" class="btn">Videos</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>Useful Shit</h1>
+
+<p>Links:</p>
+
+<ul>
+<li>Programs: Here are some programs I use to make things easier.<a targetid="programs" class="addinfo" href="#">[Show]</a></li>
+<div id="programs" style="display: none;">
+Here are some useful programs:<br>
+1.) <a href="http://www.foobar2000.org/" title=Foobar2000">Foobar2000</a><br>
+2.) <a href="http://www.cuteftp.com/" title=CuteFTP">CuteFTP</a><br>
+3.) <a href="http://www.mozilla.org/en-US/firefox/" title=Firefox">Firefox</a></div>
+<li>Sites: Here are some sites I browse frequently.<a class="addinfo" href="#" targetid="sites">[Show]</a></li>
+<div id="sites" style="display:none;">
+1.) <a href="https://boards.4chan.org/g/" title=Foobar2000">/g/</a><br>
+2.) <a href="https://boards.4chan.org/mu/" title=Foobar2000">/mu/</a><br>
+3.) <a href="http://www.wallbase.cc/" title=Foobar2000">Wallbase</a><br>
+Please note that <a href="https://4chan.org" title=4chan">4chan</a> is best browsed with <a href="https://github.com/ahodesuka/4chan-Style-Script/raw/stable/4chanSS.user.js" title=4chan-style-script">4chan-Style-Script</a> and <a href="https://raw.github.com/mayhemydg/4chan-x/stable/4chan_x.user.js" title=4chanX">4chan X</a>
+</div>
+<li>Addons: Here are some addons I use for <a href="http://www.mozilla.org/en-US/firefox/" title=Firefox">Firefox</a> that make browsing more tolerable.<a class="addinfo" href="#" targetid="addons">[Show]</a></li>
+<div id="addons" style="display:none;">
+1.) <a href="https://addons.mozilla.org/firefox/downloads/latest/1865/addon-1865-latest.xpi" title="AdblockPlus">Install</a> AdblockPlus<br>
+2.) <a href="https://addons.mozilla.org/firefox/downloads/latest/3682/addon-3682-latest.xpi" title="AddtoSearchBar">Install</a> Add to Search Bar</a><br>
+3.) <a href="https://addons.mozilla.org/firefox/downloads/latest/6623/addon-6623-latest.xpi" title="BetterPrivacy">Install</a> BetterPrivacy</a><br>
+</div>
+<script type="text/javascript">
+var elems = document.getElementsByClassName('addinfo');
+var func = function(e) {e.preventDefault(); toggle(e.target.getAttribute('targetid'));}
+for(var i = 0; i < elems.length; i++){
+	elems[i].addEventListener('click', func);
+}
+</script>
+</ul>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
